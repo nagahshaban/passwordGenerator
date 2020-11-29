@@ -1,0 +1,73 @@
+# 1 activate env
+   1-1 - pip install virtualenv
+   1-2   virtualenv env
+   1-3  \env\Scripts\activate.bat
+
+
+###################################################
+1- Password Generator Preview
+Clone contents of a GitHub repository (without the folder itself)
+git init
+git remote add origin git@github.com:me/name.git
+git pull origin master
+
+************************
+PROBLEM : No tracked branch configured for branch master or the branch doesn't exist.
+
+SOLUTION :
+git checkout mybranch
+git branch --set-upstream-to=origin/mybranch
+
+######################################################
+2-Installing Django
+django commands
+django-admin  ==> show all commands of django
+
+######################################################
+3- running server
+
+###############################
+
+4- Project Structure
+
+urls is entry points
+
+##################################
+
+5- django apps
+
+##################################
+
+6- django urls ==> entry points ==> starting point
+
+##################################
+
+7- django templates
+
+    ********************
+
+    myapp/templates/*.html
+    myapp/static/css/*.css
+    myapp/static/js/*.js
+    myapp/static/images/*.images-extensions
+
+    ********************
+
+    at templates:
+    1- {% load static %}
+    2- {% static 'myapp/css/styles.css' %}
+
+    ********************
+
+    at setting.py and urls.  ==> find config
+
+    ********************
+    adding context to templates
+
+
+##################################
+
+8- django forms
+
+
+##################################
