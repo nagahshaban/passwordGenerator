@@ -1,3 +1,3 @@
 # passwordGenerator
 
-### build password genrator with python and django3
+### Build password genrator with python & django3
